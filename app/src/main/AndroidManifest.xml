@@ -10,7 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!-- The main/home activity (it has no parent activity) -->
-        <activity android:name="com.example.android.musicplay.MainActivity">
+        <activity
+            android:name="com.example.android.musicplay.MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,6 +22,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -30,6 +33,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Album.Chill_Album"
+            android:screenOrientation="portrait"
             android:label="Chill Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -40,6 +44,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_2"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -50,6 +55,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_3"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -60,6 +66,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_4"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -70,6 +77,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_5"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -80,6 +88,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_6"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -90,6 +99,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_7"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -100,6 +110,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_8"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -110,6 +121,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_9"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -120,6 +132,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_10"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -130,6 +143,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_11"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -140,6 +154,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Chill_Activity.Chill_Activity_12"
+            android:screenOrientation="portrait"
             android:label="Chill Artist"
             android:parentActivityName=".Chill_Album.Chill_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -150,6 +165,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -160,6 +176,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Album.Pop_Album"
+            android:screenOrientation="portrait"
             android:label="Pop Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -170,6 +187,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_2"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -180,6 +198,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_3"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -190,6 +209,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_4"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -200,6 +220,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_5"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -210,6 +231,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_6"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -220,6 +242,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_7"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -230,6 +253,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_8"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -240,6 +264,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_9"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -250,6 +275,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_10"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -260,6 +286,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_11"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -270,6 +297,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Pop_Activity.Pop_Activity_12"
+            android:screenOrientation="portrait"
             android:label="Pop Artist"
             android:parentActivityName=".Pop_Album.Pop_Album" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -280,6 +308,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Focus_Album.Focus_Album"
+            android:screenOrientation="portrait"
             android:label="Focus Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -290,6 +319,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Indie_Album.Indie_Album"
+            android:screenOrientation="portrait"
             android:label="Indie Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -300,6 +330,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Rap_Album.Rap_Album"
+            android:screenOrientation="portrait"
             android:label="R and B Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -310,6 +341,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Party_Album.Party_Album"
+            android:screenOrientation="portrait"
             android:label="Party Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -320,6 +352,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Romance_Album.Romance_Album"
+            android:screenOrientation="portrait"
             android:label="Romance Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -330,6 +363,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Rock_Album.Rock_Album"
+            android:screenOrientation="portrait"
             android:label="Rock Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -340,6 +374,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Game_Album.Game_Album"
+            android:screenOrientation="portrait"
             android:label="Game Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -350,6 +385,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Mood_Album.Mood_Album"
+            android:screenOrientation="portrait"
             android:label="Mood Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -360,6 +396,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Soul_Album.Soul_Album"
+            android:screenOrientation="portrait"
             android:label="Soul Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -370,6 +407,7 @@
         <!-- A child of the main activity -->
         <activity
             android:name=".Sleep_Album.Sleep_Album"
+            android:screenOrientation="portrait"
             android:label="Sleep Albums"
             android:parentActivityName="com.example.android.musicplay.MainActivity" />
         <!-- Parent activity meta-data to support 4.0 and lower -->
