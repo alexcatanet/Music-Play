@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musicplay">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/headset"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!-- The main/home activity (it has no parent activity) -->
+        <activity android:name="com.example.android.musicplay.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Album.Chill_Album"
+            android:label="Chill Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_2"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_3"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_4"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_5"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_6"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_7"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_8"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_9"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_10"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_11"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Chill_Activity.Chill_Activity_12"
+            android:label="Chill Artist"
+            android:parentActivityName=".Chill_Album.Chill_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Album.Pop_Album"
+            android:label="Pop Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_2"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_3"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_4"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_5"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_6"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_7"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_8"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_9"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_10"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_11"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Pop_Activity.Pop_Activity_12"
+            android:label="Pop Artist"
+            android:parentActivityName=".Pop_Album.Pop_Album" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Focus_Album.Focus_Album"
+            android:label="Focus Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Indie_Album.Indie_Album"
+            android:label="Indie Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Rap_Album.Rap_Album"
+            android:label="R and B Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Party_Album.Party_Album"
+            android:label="Party Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Romance_Album.Romance_Album"
+            android:label="Romance Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Rock_Album.Rock_Album"
+            android:label="Rock Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Game_Album.Game_Album"
+            android:label="Game Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Mood_Album.Mood_Album"
+            android:label="Mood Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Soul_Album.Soul_Album"
+            android:label="Soul Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+
+        <!-- A child of the main activity -->
+        <activity
+            android:name=".Sleep_Album.Sleep_Album"
+            android:label="Sleep Albums"
+            android:parentActivityName="com.example.android.musicplay.MainActivity" />
+        <!-- Parent activity meta-data to support 4.0 and lower -->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicplay.MainActivity" />
+    </application>
+</manifest>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

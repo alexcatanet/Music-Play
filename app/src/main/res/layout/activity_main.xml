@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/spotify_background"
+    android:padding="20dp"
+    tools:context="com.example.android.musicplay.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/parent_id"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/chill_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/chill_category"
+            android:src="@drawable/chill" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="68dp"
+            android:text="@string/chill_text_genre"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/focus_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/chill_image"
+            android:layout_marginStart="220dp"
+            android:contentDescription="@string/focus_category_image"
+            android:src="@drawable/focus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="253dp"
+            android:layout_marginTop="68dp"
+            android:text="@string/focus_text_image"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/indie_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chill_image"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/indie_image_genre"
+            android:src="@drawable/indie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chill_image"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="88dp"
+            android:text="@string/indie_text_genre"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/party_image_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/focus_image"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/indie_image_genre"
+            android:src="@drawable/party" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/chill_image"
+            android:layout_marginStart="253dp"
+            android:layout_marginTop="85dp"
+            android:text="@string/party_text_genre"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/romance_image_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/indie_image"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/indie_image_genre"
+            android:src="@drawable/romance" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/indie_image"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="88dp"
+            android:text="@string/romance_text_image"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/sleep_image_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gaming_image_genre"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/indie_image_genre"
+            android:src="@drawable/sleep" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/romance_image_genre"
+            android:layout_marginStart="255dp"
+            android:layout_marginTop="85dp"
+            android:text="@string/sleep_text_genre"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/gaming_image_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/party_image_genre"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/indie_image_genre"
+            android:src="@drawable/game" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/party_image_genre"
+            android:layout_marginStart="251dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/game_text__genre"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/mood_image_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/romance_image_genre"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/indie_image_genre"
+            android:src="@drawable/mood" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/romance_image_genre"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="85dp"
+            android:text="@string/mood"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/pop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:contentDescription="@string/pop_image_genre"
+            android:src="@drawable/pop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="68dp"
+            android:text="@string/pop_music_genre"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/rap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pop"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/rap_music_genre"
+            android:src="@drawable/rap" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="189dp"
+            android:text="@string/r_and_b"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/rock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rap"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/rock_music_genre"
+            android:src="@drawable/rock" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="310dp"
+            android:text="@string/rock"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/africa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rock"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/soul_genre"
+            android:src="@drawable/afr" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="425dp"
+            android:text="@string/soul"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+</ScrollView>
