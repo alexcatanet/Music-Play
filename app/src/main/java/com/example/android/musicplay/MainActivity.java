@@ -8,18 +8,18 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.example.android.musicplay.Chill_Album.Chill_Album;
-import com.example.android.musicplay.Focus_Album.Focus_Album;
-import com.example.android.musicplay.Game_Album.Game_Album;
-import com.example.android.musicplay.Indie_Album.Indie_Album;
-import com.example.android.musicplay.Mood_Album.Mood_Album;
-import com.example.android.musicplay.Party_Album.Party_Album;
-import com.example.android.musicplay.Pop_Album.Pop_Album;
-import com.example.android.musicplay.Rap_Album.Rap_Album;
-import com.example.android.musicplay.Rock_Album.Rock_Album;
-import com.example.android.musicplay.Romance_Album.Romance_Album;
-import com.example.android.musicplay.Sleep_Album.Sleep_Album;
-import com.example.android.musicplay.Soul_Album.Soul_Album;
+import com.example.android.musicplay.Chill_Album.ChillAlbum;
+import com.example.android.musicplay.Focus_Album.FocusAlbum;
+import com.example.android.musicplay.Game_Album.GameAlbum;
+import com.example.android.musicplay.Indie_Album.IndieAlbum;
+import com.example.android.musicplay.Mood_Album.MoodAlbum;
+import com.example.android.musicplay.Party_Album.PartyAlbum;
+import com.example.android.musicplay.Pop_Album.PopAlbum;
+import com.example.android.musicplay.Rap_Album.RapAlbum;
+import com.example.android.musicplay.Rock_Album.RockAlbum;
+import com.example.android.musicplay.Romance_Album.RomanceAlbum;
+import com.example.android.musicplay.Sleep_Album.SleepAlbum;
+import com.example.android.musicplay.Soul_Album.SoulAlbum;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         chillCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent chillCategory = new Intent(view.getContext(), Chill_Album.class);
+                Intent chillCategory = new Intent(view.getContext(), ChillAlbum.class);
                 startActivityForResult(chillCategory, 0);
             }
         });
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         popCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent popCategory = new Intent(view.getContext(), Pop_Album.class);
+                Intent popCategory = new Intent(view.getContext(), PopAlbum.class);
                 startActivityForResult(popCategory, 0);
             }
         });
@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         focusCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent focusCategory = new Intent(view.getContext(), Focus_Album.class);
+                Intent focusCategory = new Intent(view.getContext(), FocusAlbum.class);
                 startActivityForResult(focusCategory, 0);
             }
         });
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         indieCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent indieCategory = new Intent(view.getContext(), Indie_Album.class);
+                Intent indieCategory = new Intent(view.getContext(), IndieAlbum.class);
                 startActivityForResult(indieCategory, 0);
             }
         });
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         rapCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent rapCategory = new Intent(view.getContext(), Rap_Album.class);
+                Intent rapCategory = new Intent(view.getContext(), RapAlbum.class);
                 startActivityForResult(rapCategory, 0);
             }
         });
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
         partyCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent partyCategory = new Intent(view.getContext(), Party_Album.class);
+                Intent partyCategory = new Intent(view.getContext(), PartyAlbum.class);
                 startActivityForResult(partyCategory, 0);
             }
         });
@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
         romanceCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent romanceCategory = new Intent(view.getContext(), Romance_Album.class);
+                Intent romanceCategory = new Intent(view.getContext(), RomanceAlbum.class);
                 startActivityForResult(romanceCategory, 0);
             }
         });
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         rockCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent rockCategory = new Intent(view.getContext(), Rock_Album.class);
+                Intent rockCategory = new Intent(view.getContext(), RockAlbum.class);
                 startActivityForResult(rockCategory, 0);
             }
         });
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         gamekCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gamekCategory = new Intent(view.getContext(), Game_Album.class);
+                Intent gamekCategory = new Intent(view.getContext(), GameAlbum.class);
                 startActivityForResult(gamekCategory, 0);
             }
         });
@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         moodkCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent moodkCategory = new Intent(view.getContext(), Mood_Album.class);
+                Intent moodkCategory = new Intent(view.getContext(), MoodAlbum.class);
                 startActivityForResult(moodkCategory, 0);
             }
         });
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
         soulCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent soulCategory = new Intent(view.getContext(), Soul_Album.class);
+                Intent soulCategory = new Intent(view.getContext(), SoulAlbum.class);
                 startActivityForResult(soulCategory, 0);
             }
         });
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
         sleepCategory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent sleepCategory = new Intent(view.getContext(), Sleep_Album.class);
+                Intent sleepCategory = new Intent(view.getContext(), SleepAlbum.class);
                 startActivityForResult(sleepCategory, 0);
             }
         });
