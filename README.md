@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/alexcatanet/Music-Play.svg?branch=master)](https://travis-ci.org/alexcatanet/Music-Play)
 # Music Play
-This project was developed within the internship program (Android Basics By Google Nanodegree).
+This project was developed within the scholarship program (Android Basics By Google).
 The goal was to design and layout the flow for the structure of a Music Player app. For this project, the app does not play music. 
 Some elements in this project were inspired by the **Spotify - Streaming Audio Service design.**
 
