@@ -2,7 +2,7 @@
 # Music Play
 This project was developed within the scholarship program (Android Basics By Google).
 The goal was to design and layout the flow for the structure of a Music Player app. For this project, the app does not play music. 
-Some elements in this project were inspired by the **Spotify - Streaming Audio Service design.**
+Some elements in this project were inspired by the **Spotify - Streaming Audio Service.**
 
 ## What I've learned:
 This project is about combining various ideas and skills I've been practicing throughout the course. They include features like:
